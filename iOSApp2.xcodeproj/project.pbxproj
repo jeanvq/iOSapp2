@@ -29,9 +29,49 @@
 		0F0CFFD32FD2497A00281992 /* iOSApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0F0C00142FD24DC700281992 /* Exceptions for "Views" folder in "iOSApp2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CameraView.swift,
+				ClueDetailView.swift,
+				ResultsView.swift,
+			);
+			target = 0F0CFFBB2FD2497800281992 /* iOSApp2 */;
+		};
+		0F0C00312FD24FEB00281992 /* Exceptions for "iOSApp2" folder in "iOSApp2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				iOSApp2App.swift,
+			);
+			target = 0F0CFFBB2FD2497800281992 /* iOSApp2 */;
+		};
+		0F0CFFFE2FD24BF200281992 /* Exceptions for "Models" folder in "iOSApp2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				HuntSession.swift,
+				ScavengerItem.swift,
+			);
+			target = 0F0CFFBB2FD2497800281992 /* iOSApp2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0F0CFFBE2FD2497800281992 /* iOSApp2 */ = {
+		0F0C00032FD24C1500281992 /* Views */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0F0C00142FD24DC700281992 /* Exceptions for "Views" folder in "iOSApp2" target */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F0C002A2FD24FEA00281992 /* iOSApp2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0F0C00312FD24FEB00281992 /* Exceptions for "iOSApp2" folder in "iOSApp2" target */,
+			);
 			path = iOSApp2;
 			sourceTree = "<group>";
 		};
@@ -43,6 +83,14 @@
 		0F0CFFD62FD2497A00281992 /* iOSApp2UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = iOSApp2UITests;
+			sourceTree = "<group>";
+		};
+		0F0CFFFA2FD24BF100281992 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0F0CFFFE2FD24BF200281992 /* Exceptions for "Models" folder in "iOSApp2" target */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +123,14 @@
 		0F0CFFB32FD2497800281992 = {
 			isa = PBXGroup;
 			children = (
-				0F0CFFBE2FD2497800281992 /* iOSApp2 */,
+				0F0CFFF52FD24BD600281992 /* iOSApp2App.swift */,
+				0F0CFFF32FD24BB500281992 /* Assets */,
 				0F0CFFCC2FD2497A00281992 /* iOSApp2Tests */,
 				0F0CFFD62FD2497A00281992 /* iOSApp2UITests */,
+				0F0CFFFA2FD24BF100281992 /* Models */,
+				0F0C00032FD24C1500281992 /* Views */,
 				0F0CFFBD2FD2497800281992 /* Products */,
+				0F0C002A2FD24FEA00281992 /* iOSApp2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +142,20 @@
 				0F0CFFD32FD2497A00281992 /* iOSApp2UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0F0CFFF32FD24BB500281992 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0F0CFFF52FD24BD600281992 /* iOSApp2App.swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iOSApp2App.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +172,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0F0CFFBE2FD2497800281992 /* iOSApp2 */,
 			);
 			name = iOSApp2;
 			packageProductDependencies = (
@@ -131,7 +194,10 @@
 				0F0CFFCB2FD2497A00281992 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				0F0C00032FD24C1500281992 /* Views */,
+				0F0C002A2FD24FEA00281992 /* iOSApp2 */,
 				0F0CFFCC2FD2497A00281992 /* iOSApp2Tests */,
+				0F0CFFFA2FD24BF100281992 /* Models */,
 			);
 			name = iOSApp2Tests;
 			packageProductDependencies = (
