@@ -30,6 +30,7 @@ Participants find hidden items at local businesses, take photos as proof, and ea
 <p align="center">
   <img src="./sim4.png" width="220" alt="Screenshot 4" />
   <img src="./sim5.png" width="220" alt="Screenshot 5" />
+  <img src="./demo.png" width="220" alt="Screenshot 6" />
 </p>
 
 ---
