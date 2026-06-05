@@ -19,6 +19,21 @@ Participants find hidden items at local businesses, take photos as proof, and ea
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./sim1.png" width="220" alt="Screenshot 1" />
+  <img src="./sim2.png" width="220" alt="Screenshot 2" />
+  <img src="./sim3.png" width="220" alt="Screenshot 3" />
+</p>
+
+<p align="center">
+  <img src="./sim4.png" width="220" alt="Screenshot 4" />
+  <img src="./sim5.png" width="220" alt="Screenshot 5" />
+</p>
+
+---
+
 ## 🛠️ Tech Stack
 
 - Swift 5
