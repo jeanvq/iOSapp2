@@ -44,3 +44,44 @@ Participants find hidden items at local businesses, take photos as proof, and ea
 ---
 
 ## 🗂️ Project Structure
+
+iOSApp2/
+├── Models/
+│   ├── ScavengerItem.swift   # Data model for each hunt item
+│   └── HuntSession.swift     # ObservableObject managing app state
+├── Views/
+│   ├── ContentView.swift     # Main screen with item list
+│   ├── ClueDetailView.swift  # Clue detail + camera trigger
+│   ├── CameraView.swift      # UIImagePickerController wrapper
+│   └── ResultsView.swift     # Results, discount codes, and submit
+└── iOSApp2App.swift
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repo:
+```bash
+   git clone https://github.com/jeanvq/iOSapp2.git
+```
+2. Open `iOSApp2.xcodeproj` in Xcode
+3. Select a simulator or device
+4. Press **⌘ + R** to run
+
+---
+
+## 🎮 Demo Mode
+
+Use the **🎮 Demo** button in the top-left corner to simulate finding items:
+- Find 5 items → test 10% discount
+- Find 7 items → test 20% discount
+- Find ALL items → test grand prize entry
+- Reset Hunt → start over
+
+---
+
+## 👨‍💻 Author
+
+**Jeancarlo** — Web & Mobile Development Student @ triOS College  
+[jeancarlodev.com](https://jeancarlodev.com) · [GitHub](https://github.com/jeanvq)
+
