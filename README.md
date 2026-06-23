@@ -1,4 +1,4 @@
-# 🗺️ iOSApp2 — Scavenger Hunt App
+# 🗺️ iOSApp3 — Scavenger Hunt App
 
 A scavenger hunt iOS app built with SwiftUI for the Waterloo Chamber of Commerce.  
 Participants find hidden items at local businesses, take photos as proof, and earn discount codes based on how many items they find.
